@@ -6,6 +6,7 @@ const About = () => {
       className="flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:px-32 w-full overflow-hidden"
       id="About"
     >
+      {/* title-section */}
       <h1 className="text-2xl sm:text-4xl font-bold mb-2">
         About{" "}
         <span className="underline underline-offset-4 decoration-1 under font-light">
@@ -17,6 +18,7 @@ const About = () => {
       </p>
 
       <div className="flex flex-col md:flex-row items-center md:items-start md:gap-20">
+        {/* image */}
         <img
           src={assets.brand_img}
           alt=""
@@ -41,12 +43,13 @@ const About = () => {
               <p>Ongoing Projects</p>
             </div>
           </div>
-          <p className="my-10 max-w-lg">
+          {/* about-description */}
+          <p className="my-10 max-w-lg text-justify md:text-left">
             Whether you&apos;re looking for your dream home, a thriving business
             space, or investment opportunities, Estate is dedicated to turning
             your vision into reality. With a commitment to integrity, quality,
             and customer satisfaction, we aim to build more than just structures
-            – we build relationships and lasting value.
+            – we build relationships & lasting value.
           </p>
           <button className="bg-blue-600 text-white px-8 py-2 rounded">
             Learn More
