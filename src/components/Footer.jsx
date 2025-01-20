@@ -44,7 +44,10 @@ const Footer = () => {
               placeholder="Enter Your Email"
               className="p-2 rounded bg-slate-800 text-gray-400 border border-gray-700 focus:outline-none w-full md:w-auto"
             />
-            <button className="py-2 px-4 rounded bg-blue-500 text-white">
+            <button
+              className="py-2 px-4 rounded bg-blue-500 text-white"
+              id="Subscribe"
+            >
               Subscribe
             </button>
           </div>
