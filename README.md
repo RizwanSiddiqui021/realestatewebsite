@@ -23,4 +23,4 @@ This website is built using HTML5, TailwindCSS, JavaScript and React, it offers 
 
 ## Contact
 
-[Rizwan Siddiqui](https://github.com/yourusername) - [rizwansiddiqui021@gmail.com](mailto:rizwansiddiqui021@gmail.com)
+[Rizwan Siddiqui](https://github.com/RizwanSiddiqui021) - [rizwansiddiqui021@gmail.com](mailto:rizwansiddiqui021@gmail.com)

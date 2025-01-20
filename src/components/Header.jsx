@@ -21,10 +21,16 @@ const Header = () => {
           Explore homes that fit your dreams
         </h2>
         <div className="space-x-6 mt-16">
-          <a href="#Projects" className="border border-white px-8 p-3 rounded">
+          <a
+            href="#Projects"
+            className="border border-white px-8 p-3 rounded hover:bg-blue-500 hover:border-blue-500"
+          >
             Projects
           </a>
-          <a href="#Contact" className="bg-blue-500 px-8 p-3 rounded">
+          <a
+            href="#Contact"
+            className="border border-blue-500 bg-blue-500 px-8 p-3 rounded hover:bg-transparent hover:border-white"
+          >
             Contact Us
           </a>
         </div>

@@ -22,24 +22,35 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center px-6 py-4 md:px-20 lg:px-32 bg-transparent">
         <img src={assets.logo} alt="" />
         <ul className="hidden md:flex gap-7 text-white">
-          <a href="#Header" className="cursor-pointer hover:text-gray-400">
+          <a
+            href="#Header"
+            className="cursor-pointer hover:text-gray-400 hover:underline"
+          >
             Home
           </a>
-          <a href="#About" className="cursor-pointer hover:text-gray-400">
+          <a
+            href="#About"
+            className="cursor-pointer hover:text-gray-400 hover:underline"
+          >
             About
           </a>
-          <a href="#Projects" className="cursor-pointer hover:text-gray-400">
+          <a
+            href="#Projects"
+            className="cursor-pointer hover:text-gray-400 hover:underline"
+          >
             Projects
           </a>
           <a
             href="#Testimonials"
-            className="cursor-pointer hover:text-gray-400"
+            className="cursor-pointer hover:text-gray-400 hover:underline"
           >
             Testimonials
           </a>
         </ul>
-        <button className="hidden md:block bg-white px-8 py-2 rounded-full">
-          <a href="#Subscribe">Subscribe</a>
+        <button className="hidden md:block bg-white px-6 py-2 rounded-full">
+          <a className="hover:underline" href="#Subscribe">
+            Subscribe
+          </a>
         </button>
 
         {/* ..........Mobile-Nav-Bar.......... */}
