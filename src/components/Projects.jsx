@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { assets, projectsData } from "../assets/assets";
-import { useEffect } from "react";
+import { motion } from "framer-motion";
 const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [cardsToShow, setCardsToShow] = useState(1);
@@ -30,7 +30,11 @@ const Projects = () => {
   };
 
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, x: -200 }}
+      transition={{ duration: 1.2 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: false }}
       className="container mx-auto px-6 py-4 pt-20 md:px-20 lg:px-32 my-20 w-full overflow-hidden"
       id="Projects"
     >
@@ -93,7 +97,7 @@ const Projects = () => {
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
